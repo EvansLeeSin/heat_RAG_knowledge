@@ -1,0 +1,14 @@
+{
+  "snapshot_id": "90b18049e69a7b7ae996ffdb41e465e0f54d7f9f4b62118704939f5a9c132ffc",
+  "bindings": {
+    "SEED-BJ-K-001": [
+      "5779637256db42db9d980e974bbc344a",
+      "cb0cfe5bf39c4c5f802004d918759412"
+    ],
+    "SEED-BJ-K-002": [
+      "2ac2e83817654978ae6ed3ac0ff15f58"
+    ],
+    "SEED-BJ-N-003": []
+  },
+  "purpose": "冻结快照上的诊断映射；标准证据以cases.jsonl的文档版本和原文锚点为准"
+}

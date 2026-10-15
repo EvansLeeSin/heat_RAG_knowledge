@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "dataset_id": "heat-retrieval-boundaries",
+  "dataset_version": "1.0.0",
+  "split": "development",
+  "description": "7份独立虚构语料、16条边界案例；仅开发集，必须与真实业务语料隔离；不代表真实检索已通过。",
+  "case_file": "cases.jsonl",
+  "cases_sha256": "1f9a7771919894747a10f1e28fefe37fa559a5f82d4ccdf57e4a2b15fe8633c4",
+  "case_count": 16,
+  "corpus": [
+    {
+      "file": "../../corpus/fixtures/beijing_current.html",
+      "sha256": "c10162480a29f213b5d4e83f2f0d69974d706f9ffc6b1db1e8e9e0a64d09077b",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000001",
+        "title": "评测专用：北京现场核查规程",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/shanghai_current.html",
+      "sha256": "2f3a4340f805b7843d392ac6b5b68a7dbb69d70831870841f8130d0c7b3d5440",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000002",
+        "title": "评测专用：上海现场核查规程",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": "上海市",
+        "applicability": "上海市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/beijing_superseded.html",
+      "sha256": "c61fb9e6bbd486df19194cff58b17b0dc88ac41e56357c705f52721cde767844",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000003",
+        "title": "评测专用：北京现场核查旧规程",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "SUPERSEDED",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/beijing_manual.html",
+      "sha256": "42c9f112cd40b736f5afbfd1d94948a091c299e6ce9373f1ef761b881104dbcc",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000004",
+        "title": "评测专用：北京热表设备说明",
+        "publisher": "虚构评测资料",
+        "documentType": "EQUIPMENT_MANUAL",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/project_a.html",
+      "sha256": "eaec844ba4fea76c12e2cfa3c0048ac5639fd855eb4db4c547eaf534387a2591",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000005",
+        "title": "评测专用：项目甲现场处置资料",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PROJECT",
+        "projectIds": [
+          "EVAL-A"
+        ]
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/project_b.html",
+      "sha256": "61460dd32669e2482e564b0e88bdf14e5a36900b859355bd754890ecd74f617d",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000006",
+        "title": "评测专用：项目乙现场处置资料",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PROJECT",
+        "projectIds": [
+          "EVAL-B"
+        ]
+      }
+    },
+    {
+      "file": "../../corpus/fixtures/null_region.html",
+      "sha256": "d41f7cde7313f9aed42a18f49801d530308ba77b0bf931ac543dc520165ccaa5",
+      "metadata": {
+        "documentId": "evalfixture000000000000000000007",
+        "title": "评测专用：地域未标注资料",
+        "publisher": "虚构评测资料",
+        "documentType": "OPERATION_REGULATION",
+        "region": null,
+        "applicability": "北京市",
+        "effectiveStatus": "CURRENT",
+        "publicationStatus": "TEST_ONLY",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    }
+  ]
+}

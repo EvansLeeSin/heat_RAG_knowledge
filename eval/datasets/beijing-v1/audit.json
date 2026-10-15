@@ -1,0 +1,1721 @@
+{
+  "legacy_file": "eval/annotations.jsonl",
+  "legacy_sha256": "96aa8bb2cc9f2ee2fbc4101727559070044557443bc397b593d2501bd82b2e65",
+  "original_count": 81,
+  "migrated_count": 81,
+  "removed_count": 0,
+  "revised_count": 13,
+  "review_scope": "本地HTML正文对照；无真实数据库/检索或领域专家验收",
+  "cases": [
+    {
+      "case_id": "BJ-K-001",
+      "legacy_line": 6,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "北京市供热采暖办法第七条 新建改建扩建供热设施 应当符合什么",
+        "type": "K",
+        "anchors": [
+          "应当符合供热规划"
+        ],
+        "note": "管理办法第七条"
+      },
+      "after": {
+        "query": "北京市供热采暖办法第七条 新建改建扩建供热设施 应当符合什么",
+        "type": "K",
+        "anchors": [
+          "应当符合供热规划"
+        ],
+        "note": "管理办法第七条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-002",
+      "legacy_line": 7,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热单位对室外供热设施和室内共用供热设施承担什么责任",
+        "type": "K",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "管理办法第二十条"
+      },
+      "after": {
+        "query": "供热单位对室外供热设施和室内共用供热设施承担什么责任",
+        "type": "K",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "管理办法第二十条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-003",
+      "legacy_line": 8,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "采暖期内供热单位不得推迟中止供热或提前结束供热",
+        "type": "K",
+        "anchors": [
+          "不得推迟、中止供热或者提前结束供热"
+        ],
+        "note": "管理办法第十五条"
+      },
+      "after": {
+        "query": "采暖期内供热单位不得推迟中止供热或提前结束供热",
+        "type": "K",
+        "anchors": [
+          "不得推迟、中止供热或者提前结束供热"
+        ],
+        "note": "管理办法第十五条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-004",
+      "legacy_line": 9,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "未签订书面供热采暖合同但已供热一个采暖期 怎么认定",
+        "type": "K",
+        "anchors": [
+          "视为存在事实供热采"
+        ],
+        "note": "管理办法第十一条"
+      },
+      "after": {
+        "query": "未签订书面供热采暖合同但已供热一个采暖期 怎么认定",
+        "type": "K",
+        "anchors": [
+          "用户与供热单位之间视为存在事实供热采暖合同关系"
+        ],
+        "note": "管理办法第十一条"
+      },
+      "reason": "原锚点截断为半词，扩展为完整合同关系表述"
+    },
+    {
+      "case_id": "BJ-K-005",
+      "legacy_line": 10,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "用户拆改室内共用供热设施 由哪个机关处罚",
+        "type": "K",
+        "anchors": [
+          "拆改室内共用供热设施、扩大采暖面积"
+        ],
+        "note": "管理办法第三十三条"
+      },
+      "after": {
+        "query": "用户拆改室内共用供热设施 由哪个机关处罚",
+        "type": "K",
+        "anchors": [
+          "由城市管理综合行政执法机关责令限期改正，逾期未改正的，可以处500元以上5000元以下罚款"
+        ],
+        "note": "管理办法第三十三条"
+      },
+      "reason": "原锚点同时出现在第二十一条和第三十三条；改为能支持处罚机关的独特原文"
+    },
+    {
+      "case_id": "BJ-K-006",
+      "legacy_line": 11,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "市政管理行政部门对供热单位的监督检查制度",
+        "type": "K",
+        "anchors": [
+          "应当建立健全监督管理制度"
+        ],
+        "note": "管理办法第二十九条"
+      },
+      "after": {
+        "query": "市政管理行政部门对供热单位的监督检查制度",
+        "type": "K",
+        "anchors": [
+          "应当建立健全监督管理制度"
+        ],
+        "note": "管理办法第二十九条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-007",
+      "legacy_line": 12,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热突发事件应急预案由谁组织实施",
+        "type": "K",
+        "anchors": [
+          "组织实施供热突发事件应急预案"
+        ],
+        "note": "管理办法第二十五条"
+      },
+      "after": {
+        "query": "供热突发事件应急预案由谁组织实施",
+        "type": "K",
+        "anchors": [
+          "组织实施供热突发事件应急预案"
+        ],
+        "note": "管理办法第二十五条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-008",
+      "legacy_line": 13,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "暂停供热协议期满 供热单位应如何处理",
+        "type": "K",
+        "anchors": [
+          "主动与用户确认是否有恢复供热需求"
+        ],
+        "note": "暂停恢复第十二条"
+      },
+      "after": {
+        "query": "暂停供热协议期满 供热单位应如何处理",
+        "type": "K",
+        "anchors": [
+          "主动与用户确认是否有恢复供热需求",
+          "供热单位应恢复正常供热",
+          "按照继续暂停供热执行协议"
+        ],
+        "note": "暂停恢复第十二条"
+      },
+      "reason": "问题涉及协议期满处理，补齐不续签及无法联系用户的分支"
+    },
+    {
+      "case_id": "BJ-K-009",
+      "legacy_line": 14,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热突发公共事件按危害程度划分为几个级别",
+        "type": "K",
+        "anchors": [
+          "划分为特别重大(I级)、重大(II级)、较大(III级)和一般(IV级)"
+        ],
+        "note": "应急预案1.5"
+      },
+      "after": {
+        "query": "供热突发公共事件按危害程度划分为几个级别",
+        "type": "K",
+        "anchors": [
+          "划分为特别重大(I级)、重大(II级)、较大(III级)和一般(IV级)"
+        ],
+        "note": "应急预案1.5"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-010",
+      "legacy_line": 15,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热单位必须组建什么队伍并配备抢修抢险物资器材",
+        "type": "K",
+        "anchors": [
+          "必须组建供热突发公共事件抢修抢险队伍"
+        ],
+        "note": "应急预案6.2"
+      },
+      "after": {
+        "query": "供热单位必须组建什么队伍并配备抢修抢险物资器材",
+        "type": "K",
+        "anchors": [
+          "必须组建供热突发公共事件抢修抢险队伍"
+        ],
+        "note": "应急预案6.2"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-011",
+      "legacy_line": 16,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热单位拒绝向居民供热且协调无效 可采取什么措施",
+        "type": "K",
+        "anchors": [
+          "采取紧急接管措施"
+        ],
+        "note": "应急预案6.6"
+      },
+      "after": {
+        "query": "供热单位拒绝向居民供热且协调无效 可采取什么措施",
+        "type": "K",
+        "anchors": [
+          "采取紧急接管措施"
+        ],
+        "note": "应急预案6.6"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-012",
+      "legacy_line": 17,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "对欠费严重无法正常供热的用户实施什么保障",
+        "type": "K",
+        "anchors": [
+          "实施必要的供热应急救助"
+        ],
+        "note": "应急预案6.4"
+      },
+      "after": {
+        "query": "对欠费严重无法正常供热的用户实施什么保障",
+        "type": "K",
+        "anchors": [
+          "实施必要的供热应急救助"
+        ],
+        "note": "应急预案6.4"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-013",
+      "legacy_line": 18,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "市、区两级应急供热燃料政府储备",
+        "type": "K",
+        "anchors": [
+          "两级应急供热燃料政府储备"
+        ],
+        "note": "应急预案6.3"
+      },
+      "after": {
+        "query": "市、区两级应急供热燃料政府储备",
+        "type": "K",
+        "anchors": [
+          "两级应急供热燃料政府储备"
+        ],
+        "note": "应急预案6.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-014",
+      "legacy_line": 19,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热事故蓝色预警期内对通信联络有什么要求",
+        "type": "K",
+        "anchors": [
+          "通信联络畅通"
+        ],
+        "note": "应急预案6.5"
+      },
+      "after": {
+        "query": "供热事故蓝色预警期内对通信联络有什么要求",
+        "type": "K",
+        "anchors": [
+          "通信联络畅通"
+        ],
+        "note": "应急预案6.5"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-015",
+      "legacy_line": 20,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "市、区两级财政安排什么资金保障供热应急措施",
+        "type": "K",
+        "anchors": [
+          "安排供热突发公共事件应急准备资金"
+        ],
+        "note": "应急预案6.7"
+      },
+      "after": {
+        "query": "市、区两级财政安排什么资金保障供热应急措施",
+        "type": "K",
+        "anchors": [
+          "安排供热突发公共事件应急准备资金"
+        ],
+        "note": "应急预案6.7"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-016",
+      "legacy_line": 21,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "市区街道乡镇三级联动协调机制排查供热隐患",
+        "type": "K",
+        "anchors": [
+          "三级联动协调机制"
+        ],
+        "note": "应急预案6.1"
+      },
+      "after": {
+        "query": "市区街道乡镇三级联动协调机制排查供热隐患",
+        "type": "K",
+        "anchors": [
+          "三级联动协调机制"
+        ],
+        "note": "应急预案6.1"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-017",
+      "legacy_line": 22,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "供热突发公共事件现场处置响应程序",
+        "type": "K",
+        "anchors": [
+          "现场了解情况、调解矛盾、控制局面"
+        ],
+        "note": "应急预案4.2"
+      },
+      "after": {
+        "query": "供热突发公共事件响应程序中，现场应先做哪些了解、调解和控制工作",
+        "type": "K",
+        "anchors": [
+          "现场了解情况、调解矛盾、控制局面"
+        ],
+        "note": "应急预案4.2.1"
+      },
+      "reason": "原问题覆盖完整响应程序，但证据只支持初始现场处置；缩小问题范围"
+    },
+    {
+      "case_id": "BJ-K-018",
+      "legacy_line": 23,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "特别重大供热突发公共事件启动应急预案由谁批准",
+        "type": "K",
+        "anchors": [
+          "经市应急委主要领导批准后启动应急预案"
+        ],
+        "note": "应急预案4.1"
+      },
+      "after": {
+        "query": "特别重大供热突发公共事件启动应急预案由谁批准",
+        "type": "K",
+        "anchors": [
+          "经市应急委主要领导批准后启动应急预案"
+        ],
+        "note": "应急预案4.1"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-019",
+      "legacy_line": 24,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热突发公共事件处置结束后的善后处理与损害核定",
+        "type": "K",
+        "anchors": [
+          "供热事故损害核定工作"
+        ],
+        "note": "应急预案4.4"
+      },
+      "after": {
+        "query": "供热突发公共事件处置结束后的善后处理与损害核定",
+        "type": "K",
+        "anchors": [
+          "供热事故损害核定工作"
+        ],
+        "note": "应急预案4.4"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-020",
+      "legacy_line": 25,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热突发公共事件处置工作结束后如何发布应急结束消息",
+        "type": "K",
+        "anchors": [
+          "向社会发布应急结束的消息"
+        ],
+        "note": "应急预案4.3"
+      },
+      "after": {
+        "query": "供热突发公共事件处置工作结束后如何发布应急结束消息",
+        "type": "K",
+        "anchors": [
+          "向社会发布应急结束的消息"
+        ],
+        "note": "应急预案4.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-021",
+      "legacy_line": 26,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "市城市公共设施事故应急指挥部总指挥由谁担任",
+        "type": "K",
+        "anchors": [
+          "总指挥由市政府分管副市长担任"
+        ],
+        "note": "应急预案2.1.1"
+      },
+      "after": {
+        "query": "市城市公共设施事故应急指挥部总指挥由谁担任",
+        "type": "K",
+        "anchors": [
+          "总指挥由市政府分管副市长担任"
+        ],
+        "note": "应急预案2.1.1"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-022",
+      "legacy_line": 27,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热单位对供热突发公共事件应做到及时报告快速抢修",
+        "type": "K",
+        "anchors": [
+          "对供热突发公共事件做到及时报告、快速抢修、尽早恢复"
+        ],
+        "note": "应急预案2.3"
+      },
+      "after": {
+        "query": "供热单位对供热突发公共事件应做到及时报告快速抢修",
+        "type": "K",
+        "anchors": [
+          "对供热突发公共事件做到及时报告、快速抢修、尽早恢复"
+        ],
+        "note": "应急预案2.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-023",
+      "legacy_line": 28,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "供热突发公共事件应急指挥部成员单位有哪些",
+        "type": "K",
+        "anchors": [
+          "中直管理局、国管局、国务院国资委"
+        ],
+        "note": "应急预案2.2"
+      },
+      "after": {
+        "query": "市供热突发公共事件应急工作组成员单位有哪些",
+        "type": "K",
+        "anchors": [
+          "市供热突发公共事件应急工作组成员单位包括"
+        ],
+        "note": "应急预案2.1.2"
+      },
+      "reason": "原问题混淆指挥部与工作组，且章节误记为2.2"
+    },
+    {
+      "case_id": "BJ-K-024",
+      "legacy_line": 29,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "较大以上供热突发公共事件信息发布和新闻报道要求",
+        "type": "K",
+        "anchors": [
+          "及时、准确、客观、全面发布"
+        ],
+        "note": "应急预案5.3"
+      },
+      "after": {
+        "query": "较大以上供热突发公共事件信息发布和新闻报道要求",
+        "type": "K",
+        "anchors": [
+          "及时、准确、客观、全面发布"
+        ],
+        "note": "应急预案5.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-025",
+      "legacy_line": 30,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "冬季供热期前15天进入什么预警响应阶段",
+        "type": "K",
+        "anchors": [
+          "进入供热突发公共事件蓝色预警响应阶段"
+        ],
+        "note": "应急预案3.3"
+      },
+      "after": {
+        "query": "冬季供热期前15天进入什么预警响应阶段",
+        "type": "K",
+        "anchors": [
+          "进入供热突发公共事件蓝色预警响应阶段"
+        ],
+        "note": "应急预案3.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-026",
+      "legacy_line": 31,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "出现哪些情况应立即分析判断影响正常供热的可能性",
+        "type": "K",
+        "anchors": [
+          "应立即分析判断影响正常供热的可能性"
+        ],
+        "note": "应急预案3.1"
+      },
+      "after": {
+        "query": "出现哪些情况应立即分析判断影响正常供热的可能性",
+        "type": "K",
+        "anchors": [
+          "应立即分析判断影响正常供热的可能性",
+          "因供热设施、设备发生故障可能影响正常供热",
+          "因供热燃料出现短缺可能影响正常供热",
+          "因供电、供水系统发生故障可能影响正常供热",
+          "因天气持续低温可能影响正常供热",
+          "因其它自然灾害可能影响正常供热"
+        ],
+        "note": "应急预案3.1"
+      },
+      "reason": "问题问哪些情况，原证据只含引导句；补齐五类触发情况"
+    },
+    {
+      "case_id": "BJ-K-027",
+      "legacy_line": 32,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "本预案适用于应对发生在本市行政区域内影响正常供热的事件",
+        "type": "K",
+        "anchors": [
+          "本预案适用于应对发生在本市行政区域内"
+        ],
+        "note": "应急预案1.4"
+      },
+      "after": {
+        "query": "本预案适用于应对发生在本市行政区域内影响正常供热的事件",
+        "type": "K",
+        "anchors": [
+          "本预案适用于应对发生在本市行政区域内"
+        ],
+        "note": "应急预案1.4"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-028",
+      "legacy_line": 33,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "本预案根据哪些规定结合本市供热工作实际制定",
+        "type": "K",
+        "anchors": [
+          "根据《北京市突发公共事件总体应急预案》"
+        ],
+        "note": "应急预案1.3"
+      },
+      "after": {
+        "query": "本预案根据哪些规定结合本市供热工作实际制定",
+        "type": "K",
+        "anchors": [
+          "根据《北京市突发公共事件总体应急预案》"
+        ],
+        "note": "应急预案1.3"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-K-029",
+      "legacy_line": 34,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "制定供热突发公共事件应急预案是为了减少什么影响",
+        "type": "K",
+        "anchors": [
+          "减少供热突发公共事件对居民正常采暖的影响"
+        ],
+        "note": "应急预案1.2"
+      },
+      "after": {
+        "query": "制定供热突发公共事件应急预案是为了减少什么影响",
+        "type": "K",
+        "anchors": [
+          "减少供热突发公共事件对居民正常采暖的影响"
+        ],
+        "note": "应急预案1.2"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-S-001",
+      "legacy_line": 35,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "冬天家里暖气不热该找谁负责维修",
+        "type": "S",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "语义→管理办法第二十条"
+      },
+      "after": {
+        "query": "楼里的共用暖气管道坏了，维修责任由谁承担？",
+        "type": "S",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "语义→管理办法第二十条"
+      },
+      "reason": "家里暖气不热可能涉及自用设施或温度不达标；明确限定共用设施"
+    },
+    {
+      "case_id": "BJ-S-002",
+      "legacy_line": 36,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "热力公司能不能中途停止给小区供暖",
+        "type": "S",
+        "anchors": [
+          "不得推迟、中止供热或者提前结束供热"
+        ],
+        "note": "语义→管理办法第十五条"
+      },
+      "after": {
+        "query": "热力公司能不能中途停止给小区供暖",
+        "type": "S",
+        "anchors": [
+          "不得推迟、中止供热或者提前结束供热"
+        ],
+        "note": "语义→管理办法第十五条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-S-003",
+      "legacy_line": 37,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "小区锅炉房出故障了谁组织抢修和出物资",
+        "type": "S",
+        "anchors": [
+          "必须组建供热突发公共事件抢修抢险队伍"
+        ],
+        "note": "语义→应急预案6.2"
+      },
+      "after": {
+        "query": "热力公司遇到供热事故，要准备哪些抢修人员和物资？",
+        "type": "S",
+        "anchors": [
+          "必须组建供热突发公共事件抢修抢险队伍"
+        ],
+        "note": "语义→应急预案6.2"
+      },
+      "reason": "原问题问事故由谁组织，证据实际规定供热单位的队伍与物资保障"
+    },
+    {
+      "case_id": "BJ-S-004",
+      "legacy_line": 38,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "有的住户长期不交暖气费导致停暖 政府怎么兜底",
+        "type": "S",
+        "anchors": [
+          "实施必要的供热应急救助"
+        ],
+        "note": "语义→应急预案6.4"
+      },
+      "after": {
+        "query": "困难住户集中、欠费严重，热力公司无法正常供暖时，政府怎么兜底？",
+        "type": "S",
+        "anchors": [
+          "实施必要的供热应急救助"
+        ],
+        "note": "语义→应急预案6.4"
+      },
+      "reason": "补充特殊群体集中、无法保障正常供热等救助条件，避免扩大为所有欠费用户"
+    },
+    {
+      "case_id": "BJ-S-005",
+      "legacy_line": 39,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供暖公司撂挑子不给居民供暖 政府如何强行接手",
+        "type": "S",
+        "anchors": [
+          "采取紧急接管措施"
+        ],
+        "note": "语义→应急预案6.6"
+      },
+      "after": {
+        "query": "供暖公司撂挑子不给居民供暖 政府如何强行接手",
+        "type": "S",
+        "anchors": [
+          "采取紧急接管措施"
+        ],
+        "note": "语义→应急预案6.6"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-S-006",
+      "legacy_line": 40,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "暖气管爆裂这类事故一共分几档",
+        "type": "S",
+        "anchors": [
+          "划分为特别重大(I级)、重大(II级)、较大(III级)和一般(IV级)"
+        ],
+        "note": "语义→应急预案1.5"
+      },
+      "after": {
+        "query": "暖气管爆裂这类事故一共分几档",
+        "type": "S",
+        "anchors": [
+          "划分为特别重大(I级)、重大(II级)、较大(III级)和一般(IV级)"
+        ],
+        "note": "语义→应急预案1.5"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-S-007",
+      "legacy_line": 41,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "报修之后没人管 多久之内必须往上报",
+        "type": "S",
+        "anchors": [
+          "应立即分析判断影响正常供热的可能性"
+        ],
+        "note": "语义→应急预案3.1"
+      },
+      "after": {
+        "query": "供热事故可能影响正常供暖，如果需要上报，应什么时候报、报给谁？",
+        "type": "S",
+        "anchors": [
+          "如需上报，要立即将发生事件时间、地点、性质、可能影响的程度、影响时间以及应对措施报市供热应急办"
+        ],
+        "note": "语义→应急预案3.1"
+      },
+      "reason": "原问题为个人报修后无人处理，证据是区县及供热企业预警上报规则，两者主体不一致"
+    },
+    {
+      "case_id": "BJ-S-008",
+      "legacy_line": 42,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "住户私自给暖气加装换热器算违规吗",
+        "type": "S",
+        "anchors": [
+          "拆改室内共用供热设施、扩大采暖面积"
+        ],
+        "note": "语义→管理办法第三十三条"
+      },
+      "after": {
+        "query": "住户拆改共用暖气设施、加大采暖面积，可能由谁责令改正？",
+        "type": "S",
+        "anchors": [
+          "由城市管理综合行政执法机关责令限期改正，逾期未改正的，可以处500元以上5000元以下罚款"
+        ],
+        "note": "语义→管理办法第三十三条"
+      },
+      "reason": "原问题问加装换热器，原证据未直接支持该设备情形；改为明确受第三十三条支持的问题"
+    },
+    {
+      "case_id": "BJ-S-009",
+      "legacy_line": 43,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "物业和热力公司之间供热设施的责任怎么划分",
+        "type": "S",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "语义→管理办法第二十条"
+      },
+      "after": {
+        "query": "居民楼室外供热管道和室内共用设施，通常由热力公司承担哪些责任？",
+        "type": "S",
+        "anchors": [
+          "承担管理、维护、抢修和更新改造的责任"
+        ],
+        "note": "语义→管理办法第二十条"
+      },
+      "reason": "原问题要求物业与热力公司完整责任划分，第二十条只直接说明供热单位职责"
+    },
+    {
+      "case_id": "BJ-S-010",
+      "legacy_line": 44,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供暖季政府部门怎么盯着供热企业",
+        "type": "S",
+        "anchors": [
+          "应当建立健全监督管理制度"
+        ],
+        "note": "语义→管理办法第二十九条"
+      },
+      "after": {
+        "query": "供暖季政府部门怎么盯着供热企业",
+        "type": "S",
+        "anchors": [
+          "应当建立健全监督管理制度"
+        ],
+        "note": "语义→管理办法第二十九条"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-S-011",
+      "legacy_line": 45,
+      "status": "SOURCE_CHECKED",
+      "action": "REVISED",
+      "before": {
+        "query": "临时没签供热合同的住户取暖权益受保护吗",
+        "type": "S",
+        "anchors": [
+          "视为存在事实供热采"
+        ],
+        "note": "语义→管理办法第十一条"
+      },
+      "after": {
+        "query": "临时没签供热合同的住户取暖权益受保护吗",
+        "type": "S",
+        "anchors": [
+          "用户与供热单位之间视为存在事实供热采暖合同关系"
+        ],
+        "note": "语义→管理办法第十一条"
+      },
+      "reason": "与K-004一致，扩展为完整合同关系表述"
+    },
+    {
+      "case_id": "BJ-S-012",
+      "legacy_line": 46,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "供热抢修要花一大笔钱 财政上怎么解决",
+        "type": "S",
+        "anchors": [
+          "安排供热突发公共事件应急准备资金"
+        ],
+        "note": "语义→应急预案6.7"
+      },
+      "after": {
+        "query": "供热抢修要花一大笔钱 财政上怎么解决",
+        "type": "S",
+        "anchors": [
+          "安排供热突发公共事件应急准备资金"
+        ],
+        "note": "语义→应急预案6.7"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-001",
+      "legacy_line": 47,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "如何办理港澳通行证",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "如何办理港澳通行证",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-002",
+      "legacy_line": 48,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "今天北京的天气怎么样",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "今天北京的天气怎么样",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-003",
+      "legacy_line": 49,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "汽车多少公里保养一次",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "汽车多少公里保养一次",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-004",
+      "legacy_line": 50,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "股票开户需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "股票开户需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-005",
+      "legacy_line": 51,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "孩子的数学作业怎么做",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "孩子的数学作业怎么做",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-006",
+      "legacy_line": 52,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "Python 怎么安装第三方库",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "Python 怎么安装第三方库",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-007",
+      "legacy_line": 53,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "感冒了应该吃什么药",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "感冒了应该吃什么药",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-008",
+      "legacy_line": 54,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "北京地铁首班车几点",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "北京地铁首班车几点",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-009",
+      "legacy_line": 55,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "小区物业费收费标准是多少",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "小区物业费收费标准是多少",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-010",
+      "legacy_line": 56,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "个人所得税怎么申报",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "after": {
+        "query": "个人所得税怎么申报",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-011",
+      "legacy_line": 57,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "明天上海下雨吗",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：天气"
+      },
+      "after": {
+        "query": "明天上海下雨吗",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：天气"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-012",
+      "legacy_line": 58,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "怎么申请护照",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：证照"
+      },
+      "after": {
+        "query": "怎么申请护照",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：证照"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-013",
+      "legacy_line": 59,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "房贷利率现在是多少",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：金融"
+      },
+      "after": {
+        "query": "房贷利率现在是多少",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：金融"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-014",
+      "legacy_line": 60,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "银行存款利息怎么算",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：金融"
+      },
+      "after": {
+        "query": "银行存款利息怎么算",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：金融"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-015",
+      "legacy_line": 61,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "孩子上小学需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：教育"
+      },
+      "after": {
+        "query": "孩子上小学需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：教育"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-016",
+      "legacy_line": 62,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "高考志愿怎么填报",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：教育"
+      },
+      "after": {
+        "query": "高考志愿怎么填报",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：教育"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-017",
+      "legacy_line": 63,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "感冒发烧吃什么药",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：医疗"
+      },
+      "after": {
+        "query": "感冒发烧吃什么药",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：医疗"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-018",
+      "legacy_line": 64,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "体检报告怎么看",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：医疗"
+      },
+      "after": {
+        "query": "体检报告怎么看",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：医疗"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-019",
+      "legacy_line": 65,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "高铁票怎么退",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：交通"
+      },
+      "after": {
+        "query": "高铁票怎么退",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：交通"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-020",
+      "legacy_line": 66,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "驾照到期怎么换证",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：交通"
+      },
+      "after": {
+        "query": "驾照到期怎么换证",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：交通"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-021",
+      "legacy_line": 67,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "北京有哪些好玩的地方",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：生活"
+      },
+      "after": {
+        "query": "北京有哪些好玩的地方",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：生活"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-022",
+      "legacy_line": 68,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "火锅底料怎么做",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：生活"
+      },
+      "after": {
+        "query": "火锅底料怎么做",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：生活"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-023",
+      "legacy_line": 69,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "手机电池不耐用怎么办",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：数码"
+      },
+      "after": {
+        "query": "手机电池不耐用怎么办",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：数码"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-024",
+      "legacy_line": 70,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "路由器怎么改密码",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：数码"
+      },
+      "after": {
+        "query": "路由器怎么改密码",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：数码"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-025",
+      "legacy_line": 71,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "足球比赛几点开始",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：体育"
+      },
+      "after": {
+        "query": "足球比赛几点开始",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：体育"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-026",
+      "legacy_line": 72,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "马拉松怎么报名",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：体育"
+      },
+      "after": {
+        "query": "马拉松怎么报名",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：体育"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-027",
+      "legacy_line": 73,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "劳动合同到期怎么续签",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：劳动"
+      },
+      "after": {
+        "query": "劳动合同到期怎么续签",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：劳动"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-028",
+      "legacy_line": 74,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "社保断缴有什么影响",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：社保"
+      },
+      "after": {
+        "query": "社保断缴有什么影响",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：社保"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-029",
+      "legacy_line": 75,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "公积金怎么提取",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：公积金"
+      },
+      "after": {
+        "query": "公积金怎么提取",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：公积金"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-030",
+      "legacy_line": 76,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "租房合同要注意什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：住房"
+      },
+      "after": {
+        "query": "租房合同要注意什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：住房"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-031",
+      "legacy_line": 77,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "垃圾分类怎么分",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：环保"
+      },
+      "after": {
+        "query": "垃圾分类怎么分",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：环保"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-032",
+      "legacy_line": 78,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "快递丢了怎么投诉",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：消费"
+      },
+      "after": {
+        "query": "快递丢了怎么投诉",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：消费"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-033",
+      "legacy_line": 79,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "外卖超时怎么赔付",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：消费"
+      },
+      "after": {
+        "query": "外卖超时怎么赔付",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：消费"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-034",
+      "legacy_line": 80,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "怎么办理营业执照",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：工商"
+      },
+      "after": {
+        "query": "怎么办理营业执照",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：工商"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-035",
+      "legacy_line": 81,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "公司注销流程是什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：工商"
+      },
+      "after": {
+        "query": "公司注销流程是什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：工商"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-036",
+      "legacy_line": 82,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "身份证丢了怎么补办",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：证照"
+      },
+      "after": {
+        "query": "身份证丢了怎么补办",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：证照"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-037",
+      "legacy_line": 83,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "结婚登记需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：民政"
+      },
+      "after": {
+        "query": "结婚登记需要什么材料",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：民政"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-038",
+      "legacy_line": 84,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "生育津贴怎么领",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：社保"
+      },
+      "after": {
+        "query": "生育津贴怎么领",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：社保"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-039",
+      "legacy_line": 85,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "汽车年检流程是什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：车辆"
+      },
+      "after": {
+        "query": "汽车年检流程是什么",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：车辆"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    },
+    {
+      "case_id": "BJ-N-040",
+      "legacy_line": 86,
+      "status": "SOURCE_CHECKED",
+      "action": "MIGRATED_UNCHANGED",
+      "before": {
+        "query": "宠物狗怎么打疫苗",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：宠物"
+      },
+      "after": {
+        "query": "宠物狗怎么打疫苗",
+        "type": "N",
+        "anchors": [],
+        "note": "域外话题：宠物"
+      },
+      "reason": "原问题及锚点保留；正样本核对指定正文，负样本为本语料范围外话题"
+    }
+  ]
+}

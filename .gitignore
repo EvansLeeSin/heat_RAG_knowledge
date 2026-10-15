@@ -1,0 +1,55 @@
+# Python / local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime secrets; only the placeholder template is versioned.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Storage / build output / editor state
+data/
+srv/
+*.tar
+*.tar.gz
+*.zip
+*.log
+.idea/
+.vscode/
+.DS_Store
+
+# Historical NAS configurations contain local credentials. Keep them local.
+/docker-compose.nas.yml
+/docker-compose.yaml
+/nas-compose.yaml
+/verify-compose.yaml
+
+# Ad-hoc diagnostics, request/response dumps and scratch files
+/alog.txt
+/wlog*.txt
+/q.json
+/q2.json
+/sr.json
+/sr2.json
+/sr3.json
+/-
+/notes_review_response_draft.md
+# 离线评测快照可能包含非公开知识，禁止默认提交。
+eval/snapshots/
+# 逐案例运行产物也可能包含项目资料/查询条件，不默认提交。
+eval/runs/
+# 离线报告包含问题、权限条件与实验配置，不默认提交。
+eval/reports/
+# Agent execution/scoring/report output is not source code.
+agent-runs/
+agent-scores/
+agent-reports/

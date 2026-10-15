@@ -1,0 +1,10 @@
+# WSL CPU deployment; keep the application's existing requirements unchanged.
+# Match torch/torchvision and avoid downloading CUDA dependencies on this host.
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+# Compatible with the project's pydantic==2.10.4 / pydantic-settings==2.7.1.
+# Newer Docling/core releases require newer settings; avoid unbounded backtracking.
+docling==2.55.1
+docling-core==2.48.4
+docling-ibm-models==3.9.1
+google-genai==1.47.0

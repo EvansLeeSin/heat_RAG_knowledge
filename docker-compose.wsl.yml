@@ -1,0 +1,98 @@
+# Always select this file explicitly: the repository also has old NAS YAML files.
+name: heat-knowledge-wsl
+
+x-runtime-environment: &runtime-environment
+  DATABASE_URL: postgresql+psycopg://knowledge:${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}@postgresql:5432/knowledge
+  CELERY_BROKER_URL: redis://redis:6379/0
+  CELERY_RESULT_BACKEND: redis://redis:6379/1
+  STORAGE_ROOT: /data
+  KNOWLEDGE_QUERY_API_KEY: ${KNOWLEDGE_QUERY_API_KEY:?Set query key}
+  KNOWLEDGE_MANAGEMENT_API_KEY: ${KNOWLEDGE_MANAGEMENT_API_KEY:?Set management key}
+  EMBEDDING_PROVIDER: ${EMBEDDING_PROVIDER:-none}
+  EMBEDDING_API_BASE: ${EMBEDDING_API_BASE:-}
+  EMBEDDING_API_KEY: ${EMBEDDING_API_KEY:-}
+  EMBEDDING_MODEL: ${EMBEDDING_MODEL:-}
+  EMBEDDING_DIMENSION: ${EMBEDDING_DIMENSION:-1024}
+  EMBEDDING_VERSION: ${EMBEDDING_VERSION:-wsl-unconfigured}
+  DEBUG_ENDPOINTS: "0"
+
+x-application: &application
+  image: heat-knowledge-service:wsl
+  # Build explicitly with tools/wsl-build.sh before starting this stack.
+  environment: *runtime-environment
+  init: true
+
+services:
+  knowledge-init:
+    <<: *application
+    command: ["python", "tools/init_wsl_database.py"]
+    depends_on:
+      postgresql:
+        condition: service_healthy
+    restart: "no"
+
+  knowledge-api:
+    <<: *application
+    ports:
+      - "127.0.0.1:${KNOWLEDGE_WSL_PORT:-18000}:8000"
+    volumes:
+      - ${KNOWLEDGE_STORAGE_ROOT:?Set storage directory}:/data
+    depends_on:
+      knowledge-init:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import json,urllib.request; r=json.load(urllib.request.urlopen('http://127.0.0.1:8000/health',timeout=5)); assert r['status']=='ok' and r['database'] is True"
+      interval: 10s
+      timeout: 6s
+      retries: 6
+      start_period: 20s
+    restart: unless-stopped
+
+  knowledge-worker:
+    <<: *application
+    command: ["celery", "-A", "app.workers.celery_app.celery_app", "worker", "--loglevel=info", "--concurrency=2"]
+    volumes:
+      - ${KNOWLEDGE_STORAGE_ROOT:?Set storage directory}:/data
+    depends_on:
+      knowledge-init:
+        condition: service_completed_successfully
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  redis:
+    image: redis:7-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+
+  postgresql:
+    image: pgvector/pgvector:pg16
+    environment:
+      POSTGRES_USER: knowledge
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD}
+      POSTGRES_DB: knowledge
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U knowledge -d knowledge"]
+      interval: 5s
+      timeout: 3s
+      retries: 12
+    restart: unless-stopped
+
+volumes:
+  redis-data:
+  postgres-data:

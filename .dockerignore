@@ -1,0 +1,13 @@
+# Whitelist only build inputs. Never send NAS credentials, logs, datasets,
+# virtualenvs, archives, or runtime secrets to the Docker build context.
+**
+!Dockerfile
+!Dockerfile.wsl
+!requirements.txt
+!constraints.wsl.txt
+!app/
+!app/**
+!tools/
+!tools/init_wsl_database.py
+app/**/__pycache__/
+app/**/*.pyc

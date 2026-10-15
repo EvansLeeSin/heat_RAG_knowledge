@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "dataset_id": "heat-retrieval-beijing",
+  "dataset_version": "1.0.0",
+  "split": "development",
+  "description": "81条历史案例的可追溯迁移，13条修订；仅开发集，非冻结验收集；文本核对不是法规有效性审查。",
+  "case_file": "cases.jsonl",
+  "cases_sha256": "b25b5ae2ad2db992c0991de99f5b52ea921f6607f7a7243a512cce7757ee14bf",
+  "case_count": 81,
+  "corpus": [
+    {
+      "file": "../../corpus/beijing_gongre_guanli_banfa.html",
+      "sha256": "a6de1cdcc65f59a91d9aaf1f13364ece8158794291abb231445f0d36d3ff05d0",
+      "metadata": {
+        "documentId": "doc00000000000000000000000000001",
+        "title": "北京市供热采暖管理办法",
+        "publisher": "北京市人民政府",
+        "sourceUrl": "https://www.beijing.gov.cn/zhengce/zhengcefagui/",
+        "documentType": "MANAGEMENT_MEASURE",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "TO_VERIFY",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/beijing_zanting_huifu.html",
+      "sha256": "47cae6a4ce5b3959603b99d14a07a7d0bcab4b4ccfe828c7f8ce95b4cd9c9e14",
+      "metadata": {
+        "documentId": "doc00000000000000000000000000002",
+        "title": "北京市居民集中供热暂停和恢复供热指导意见",
+        "publisher": "北京市城市管理委员会",
+        "sourceUrl": "https://csglw.beijing.gov.cn/",
+        "documentType": "GUIDANCE",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "TO_VERIFY",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    },
+    {
+      "file": "../../corpus/beijing_yingji_yuan.html",
+      "sha256": "7c5b37b1dcd4edc011d46b7283f5f746e06afca601c072241af0861f8a79019e",
+      "metadata": {
+        "documentId": "doc00000000000000000000000000003",
+        "title": "北京市供热突发公共事件应急预案",
+        "publisher": "北京市城市管理委员会",
+        "sourceUrl": "https://csglw.beijing.gov.cn/",
+        "documentType": "EMERGENCY_PLAN",
+        "region": "北京市",
+        "applicability": "北京市",
+        "effectiveStatus": "TO_VERIFY",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": []
+      }
+    }
+  ]
+}

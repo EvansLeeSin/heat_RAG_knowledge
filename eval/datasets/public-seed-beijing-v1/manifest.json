@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "dataset_id": "heat-retrieval-public-seed-beijing",
+  "dataset_version": "1.0.0",
+  "split": "development",
+  "description": "3条用户逐题确认的业务种子开发案例（2K+1N）；版本内容固定，非冻结验收集或整体质量基线；文件现行有效性未审核。",
+  "case_file": "cases.jsonl",
+  "cases_sha256": "8991f41e008c10deb34087ce26280b37ae913588ae81f2ca004ae00193e69a93",
+  "case_count": 3,
+  "corpus": [
+    {
+      "file": "corpus/management.html",
+      "sha256": "58396ff279fc84d2996d668105306a7c7b8fedae607b02b19a98913a50b1d4dc",
+      "metadata": {
+        "documentId": "seed-bj-heating-measures-216",
+        "title": "北京市供热采暖管理办法",
+        "publisher": "北京市人民政府",
+        "documentType": "MANAGEMENT_MEASURE",
+        "effectiveStatus": "TO_VERIFY",
+        "sourceUrl": "https://www.beijing.gov.cn/gongkai/zfxxgk/zc/gz/202112/t20211216_2562678.html",
+        "region": "北京市",
+        "applicability": "北京市；本次下载的公开来源文本，不代表已完成现行有效性审查",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": [],
+        "sourceTextFormat": "html-body"
+      }
+    },
+    {
+      "file": "corpus/pause_restore.html",
+      "sha256": "32cd1a1daffae1c4e621601ec1eb3ddcfe1e438b90634bcddc7365237b302a0a",
+      "metadata": {
+        "documentId": "seed-bj-pause-restore-2022-22",
+        "title": "北京市居民集中供热暂停和恢复供热指导意见（京管发〔2022〕22号）",
+        "publisher": "北京市城市管理委员会",
+        "documentType": "OTHER",
+        "effectiveStatus": "TO_VERIFY",
+        "sourceUrl": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/202405/t20240516_3685695.html",
+        "region": "北京市",
+        "applicability": "北京市；本次下载的公开来源文本，不代表已完成现行有效性审查",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": [],
+        "sourceTextFormat": "html-body"
+      }
+    },
+    {
+      "file": "corpus/faq.html",
+      "sha256": "8b6328e4e84200b61a9bceb04fadefb47a0eb512de007e6e69f489e25add1e55",
+      "metadata": {
+        "documentId": "seed-bj-heating-faq-20240311",
+        "title": "供热常见问题汇总（北京市城市管理委员会，网页日期2024-03-11）",
+        "publisher": "北京市城市管理委员会",
+        "documentType": "OTHER",
+        "effectiveStatus": "REFERENCE_ONLY",
+        "sourceUrl": "https://csglw.beijing.gov.cn/sy/sycxfw/xxcx/grxxcx/201912/t20191203_804452.html",
+        "region": "北京市",
+        "applicability": "北京市；本次下载的公开来源文本，不代表已完成现行有效性审查",
+        "publicationStatus": "PUBLISHED",
+        "accessScope": "PUBLIC",
+        "projectIds": [],
+        "sourceTextFormat": "html-body"
+      }
+    }
+  ]
+}

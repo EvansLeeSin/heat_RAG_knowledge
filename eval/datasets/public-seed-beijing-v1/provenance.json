@@ -1,0 +1,96 @@
+{
+  "created_at_utc": "2026-10-13T06:32:03.973115+00:00",
+  "split": "development",
+  "content_version_frozen": true,
+  "acceptance_ready": false,
+  "legal_validity_verified": false,
+  "review_sources": [
+    {
+      "case_id": "SEED-BJ-K-001",
+      "kind": "confirmed",
+      "file": "reviews/SEED-BJ-K-001-confirmed.json",
+      "sha256": "c299898642867f48b6ffeb37d60f7ce40a441dbd6a351ac4bd787afabd3fe293"
+    },
+    {
+      "case_id": "SEED-BJ-K-001",
+      "kind": "proposed",
+      "file": "reviews/SEED-BJ-K-001-proposed.json",
+      "sha256": "5ef85940004b12b32b8f8aa524d924bde369abb4359846eff25a94c858a53b66"
+    },
+    {
+      "case_id": "SEED-BJ-K-002",
+      "kind": "confirmed",
+      "file": "reviews/SEED-BJ-K-002-confirmed.json",
+      "sha256": "c72b72022f80a160ae723e29af310d0406def555722e7988f446d83aaa3b4e7d"
+    },
+    {
+      "case_id": "SEED-BJ-K-002",
+      "kind": "proposed",
+      "file": "reviews/SEED-BJ-K-002-proposed.json",
+      "sha256": "249430c83b90fdd5a1837824bb5aafceff5b47f5b2b87b91a0f4a1ac8f118c84"
+    },
+    {
+      "case_id": "SEED-BJ-N-003",
+      "kind": "confirmed",
+      "file": "reviews/SEED-BJ-N-003-confirmed.json",
+      "sha256": "d1689cb965e14cd00c53c3241dd7f203b7494c3cabedfc2c8a808c9a87524aca"
+    },
+    {
+      "case_id": "SEED-BJ-N-003",
+      "kind": "proposed",
+      "file": "reviews/SEED-BJ-N-003-proposed.json",
+      "sha256": "5a4f37e01089997da3fe138bbcb08de9e1290588536cc6d180efc87fcc976795"
+    }
+  ],
+  "source_pages": [
+    {
+      "document_id": "seed-bj-heating-measures-216",
+      "url": "https://www.beijing.gov.cn/gongkai/zfxxgk/zc/gz/202112/t20211216_2562678.html",
+      "source_page_date": "2021-12-16T14:46:55+08:00",
+      "raw_sha256": "87ec4ad93f15fcfa30bbf5f32a187fb283ae4a0e2ddff7c7a6239daa2e10f26e",
+      "uploaded_file_sha256": "58396ff279fc84d2996d668105306a7c7b8fedae607b02b19a98913a50b1d4dc"
+    },
+    {
+      "document_id": "seed-bj-pause-restore-2022-22",
+      "url": "https://csglw.beijing.gov.cn/zwxx/2024zcwj/202405/t20240516_3685695.html",
+      "source_page_date": "2022-10-25 17:20",
+      "raw_sha256": "8d1e69064c4c265b18aa73fb8d8b811d4d6b40fa3cbf274acb6cddb2f86999cf",
+      "uploaded_file_sha256": "32cd1a1daffae1c4e621601ec1eb3ddcfe1e438b90634bcddc7365237b302a0a"
+    },
+    {
+      "document_id": "seed-bj-heating-faq-20240311",
+      "url": "https://csglw.beijing.gov.cn/sy/sycxfw/xxcx/grxxcx/201912/t20191203_804452.html",
+      "source_page_date": "2024-03-11 16:17",
+      "raw_sha256": "9108d55173c5b326408574a43ce6fa0921c17680152d87f93e71926be513ed2c",
+      "uploaded_file_sha256": "8b6328e4e84200b61a9bceb04fadefb47a0eb512de007e6e69f489e25add1e55"
+    }
+  ],
+  "historical_teaching_summary_sha256": "accc36609dbedd43eef78ec84748e008b2d123c8162d5ba1a3140368f5487cf6",
+  "historical_teaching_summary_note": "历史演示不是本数据集的新实验批次；没有重新检索或把历史结果冒充新运行。",
+  "reference_retrieval_config": {
+    "embedding_provider": "openai",
+    "embedding_api_base": "https://api.siliconflow.cn/v1",
+    "embedding_model": "Qwen/Qwen3-Embedding-4B",
+    "embedding_dimension": 1024,
+    "embedding_version": "sf-qwen3-4b-1024-v1",
+    "no_evidence_min_similarity": 0.51,
+    "no_evidence_min_ts_rank": 0.02,
+    "retrievalMode": "HYBRID",
+    "topK": 10
+  },
+  "manifest_sha256": "eade9319e3df10f308d8776abe6e62c0fefa34296124d0d271161daebfb9a733",
+  "snapshot_sha256": "1cd75d78318436ab9c8fd4d844de0d3189c328c9cf84d962c9d5bcdf4cd6d414",
+  "corpus_hash": "d673a2158b7f31200071611652416a7a0406962c66190d76504d234520094311",
+  "binding_sha256": "4d0acd32185198ed3b5b71ef0d4e561fac0afdd003d79334fc2cabc297cc8e0a",
+  "validation": {
+    "local_dataset_hashes_and_anchors": "PASSED",
+    "actual_snapshot_metadata_and_gold_mapping": "PASSED",
+    "positive_cases": 2,
+    "negative_cases": 1,
+    "gold_chunk_counts": [
+      2,
+      1,
+      0
+    ]
+  }
+}

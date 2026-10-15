@@ -1,0 +1,125 @@
+{
+  "artifact_type": "manual_gold_proposal_not_dataset_manifest",
+  "status": "pending_user_confirmation",
+  "case_id": "walkthrough-bj-period-001",
+  "query": "北京市的采暖期从什么时候开始，到什么时候结束？",
+  "interpretation": "普通采暖期起止规则；不是某一年度具体提前/延后供暖安排。按当前已入库官网文本查证，不代表现行有效性审核。",
+  "scope": "All active PUBLIC chunks matching original request: Beijing, TO_VERIFY/REFERENCE_ONLY, no type filter",
+  "binary_relevance_policy": "本题只将直接提供普通采暖期起止日期及相关调整说明的chunk作为直接证据；纯辅助约束不作为此二元指标的gold。",
+  "evidence_relationship": "两条可替代证据，任意一条可以支撑回答；chunk级召回覆盖率仍分别计两个相关chunk，不等同回答正确率。",
+  "gold": [
+    {
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_id": "cb0cfe5bf39c4c5f802004d918759412",
+      "content_sha256": "c9c5334f03e0b78b76bc1b12abd8a3846fc3a4147d4e79bb60104e64cb456f5a",
+      "anchor": "第十二条　本市采暖期为当年11月15日至次年3月15日。市人民政府可以根据气象等实际情况调整采暖期时间。",
+      "source_url": "https://www.beijing.gov.cn/gongkai/zfxxgk/zc/gz/202112/t20211216_2562678.html",
+      "effective_status": "TO_VERIFY"
+    },
+    {
+      "document_id": "seed-bj-heating-faq-20240311",
+      "document_version": 1,
+      "chunk_id": "5779637256db42db9d980e974bbc344a",
+      "content_sha256": "a75eec57aae7755c3ecffd9afe65878b56dfc9e70056f8d5cb16236ffc1281d8",
+      "anchor": "按照《北京市供热采暖管理办法》，本市采暖期为当年11月15日至次年3月15日。市人民政府可以根据气象等实际情况调整采暖期时间。用户对采暖期时间有特殊要求的可以与供热单位另行约定。",
+      "source_url": "https://csglw.beijing.gov.cn/sy/sycxfw/xxcx/grxxcx/201912/t20191203_804452.html",
+      "effective_status": "REFERENCE_ONLY"
+    }
+  ],
+  "all_eligible_chunks_reviewed": [
+    {
+      "chunk_id": "5779637256db42db9d980e974bbc344a",
+      "document_id": "seed-bj-heating-faq-20240311",
+      "document_version": 1,
+      "chunk_index": 0,
+      "article_no": null,
+      "directly_relevant": true,
+      "reason": "FAQ第一问给出普通采暖期起止日期、政府可调整及特殊需求另约；直接证据。"
+    },
+    {
+      "chunk_id": "c0671c2612874e45833ed88a17b08fd3",
+      "document_id": "seed-bj-heating-faq-20240311",
+      "document_version": 1,
+      "chunk_index": 1,
+      "article_no": null,
+      "directly_relevant": false,
+      "reason": "收费方式与价格，没有普通采暖期起止日期。"
+    },
+    {
+      "chunk_id": "cb86f80f1f164b07b4f61e9487ab5121",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 0,
+      "article_no": null,
+      "directly_relevant": false,
+      "reason": "总则、适用范围及公布/施行日期，不是采暖期起止日期。"
+    },
+    {
+      "chunk_id": "df1cbc93215b46b9b8660f5e50d22505",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 1,
+      "article_no": "第六条",
+      "directly_relevant": false,
+      "reason": "规划、建设、热计量，没有所问起止日期。"
+    },
+    {
+      "chunk_id": "cb0cfe5bf39c4c5f802004d918759412",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 2,
+      "article_no": "第十条",
+      "directly_relevant": true,
+      "reason": "正文第十二条给出普通采暖期起止日期、政府可调整及特殊需求另约；直接证据。"
+    },
+    {
+      "chunk_id": "5d3e6356a95c4d2db9330e78fcbcf57e",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 3,
+      "article_no": "第十四条",
+      "directly_relevant": false,
+      "reason": "含不得提前结束供热等辅助约束及其他业务条款，但没有所问普通采暖期起止日期；不计本题直接证据。"
+    },
+    {
+      "chunk_id": "442a569a9d6e4683bbccdedce94b6d5d",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 4,
+      "article_no": "第二十二条",
+      "directly_relevant": false,
+      "reason": "设施管理、安全和应急事项，没有所问起止日期。"
+    },
+    {
+      "chunk_id": "d5cb82eff7374df9aaed894f2e0e9c58",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 5,
+      "article_no": "第三十条",
+      "directly_relevant": false,
+      "reason": "处罚、定义及施行日期；含违规提前结束供热处罚，但没有所问普通采暖期起止日期。"
+    },
+    {
+      "chunk_id": "2ac2e83817654978ae6ed3ac0ff15f58",
+      "document_id": "seed-bj-pause-restore-2022-22",
+      "document_version": 1,
+      "chunk_index": 0,
+      "article_no": null,
+      "directly_relevant": false,
+      "reason": "暂停申请和9月30日等办理期限，不是普通采暖期起止日期。"
+    },
+    {
+      "chunk_id": "3b6ac81a688246e2bd6faa81102d03f3",
+      "document_id": "seed-bj-pause-restore-2022-22",
+      "document_version": 1,
+      "chunk_index": 1,
+      "article_no": "第十二条",
+      "directly_relevant": false,
+      "reason": "恢复确认及提前7日等特殊申请期限，不是普通采暖期起止日期。"
+    }
+  ],
+  "scoring_performed": false,
+  "api_calls_in_step_2": 0,
+  "corpus_file_sha256": "66e3e4738ef98763b8a44c1474087c95404241493601654066dc71e1499dc606"
+}

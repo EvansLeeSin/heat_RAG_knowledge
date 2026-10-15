@@ -1,0 +1,138 @@
+{
+  "artifact_type": "manual_negative_case_confirmation_not_dataset_manifest",
+  "created_at_utc": "2026-10-13T05:53:33.370124+00:00",
+  "status": "confirmed_by_user",
+  "case_id": "walkthrough-bj-wechat-entry-003",
+  "query": "北京市居民申请暂停供热，可以通过哪个微信小程序办理？",
+  "proposed_case_type": "N",
+  "interpretation": "要求可办理居民暂停供热的具体微信小程序名称或可识别入口，不能用申请日期、材料或泛化流程替代。",
+  "scope": "The captured 10 active PUBLIC Beijing chunks matching TO_VERIFY/REFERENCE_ONLY, no document-type filter; no claim about all external facts.",
+  "expected_has_direct_evidence": false,
+  "gold": [],
+  "binary_relevance_policy": "可直接支持题目所问具体小程序名称／入口，并能关联暂停供热办理的chunk才是直接证据。全量逐段人工审核未找到此类chunk。",
+  "all_eligible_chunks_reviewed": [
+    {
+      "chunk_id": "5779637256db42db9d980e974bbc344a",
+      "document_id": "seed-bj-heating-faq-20240311",
+      "document_version": 1,
+      "chunk_index": 0,
+      "content_sha256": "a75eec57aae7755c3ecffd9afe65878b56dfc9e70056f8d5cb16236ffc1281d8",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "采暖期、室温、缴费与价格，没有小程序名称、入口或该渠道办理说明。"
+    },
+    {
+      "chunk_id": "c0671c2612874e45833ed88a17b08fd3",
+      "document_id": "seed-bj-heating-faq-20240311",
+      "document_version": 1,
+      "chunk_index": 1,
+      "content_sha256": "36539913b3801d74e78ce9a6f0d80159740e7f51f7722c55d606c19f130bda29",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "收费方式与价格，没有所问办理渠道信息。"
+    },
+    {
+      "chunk_id": "cb86f80f1f164b07b4f61e9487ab5121",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 0,
+      "content_sha256": "a83f4ccf5c52204ae2c74061542a6f01ee0f4b2a40687d41aabfc46a2fd43b87",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "总则与行政职责，没有所问办理渠道信息。"
+    },
+    {
+      "chunk_id": "df1cbc93215b46b9b8660f5e50d22505",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 1,
+      "content_sha256": "38f3652a539ae6ba14e28392b9ef079c599d8debbfa7a6df3f34c892ec8650b0",
+      "returned_in_saved_response": false,
+      "proposed_directly_relevant": false,
+      "reason": "规划、建设与节能，没有所问办理渠道信息；未被本次召回仍纳入审核。"
+    },
+    {
+      "chunk_id": "cb0cfe5bf39c4c5f802004d918759412",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 2,
+      "content_sha256": "c9c5334f03e0b78b76bc1b12abd8a3846fc3a4147d4e79bb60104e64cb456f5a",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "备案、采暖期与服务要求，没有所问小程序名称或入口。"
+    },
+    {
+      "chunk_id": "5d3e6356a95c4d2db9330e78fcbcf57e",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 3,
+      "content_sha256": "c985b94199cf2a3cfc290985aee760a04970c1e7dfa86c88be726a3f536b5cc9",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "暂停供热协商、收费、设施维护等有业务关联，但没有小程序名称或入口。"
+    },
+    {
+      "chunk_id": "442a569a9d6e4683bbccdedce94b6d5d",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 4,
+      "content_sha256": "b2b4ff194d29694004bd70245a4978878222bd0e25b74786c55d875792d89d2c",
+      "returned_in_saved_response": false,
+      "proposed_directly_relevant": false,
+      "reason": "设施安全、抢修、接管与监督，没有所问办理渠道信息；未被本次召回仍纳入审核。"
+    },
+    {
+      "chunk_id": "d5cb82eff7374df9aaed894f2e0e9c58",
+      "document_id": "seed-bj-heating-measures-216",
+      "document_version": 1,
+      "chunk_index": 5,
+      "content_sha256": "eb1d517676a06fc1dee24bbcfdfe62207a4fe4df600130ed7ea85eaf1de21896",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "处罚、定义与施行日期，没有所问办理渠道信息。"
+    },
+    {
+      "chunk_id": "2ac2e83817654978ae6ed3ac0ff15f58",
+      "document_id": "seed-bj-pause-restore-2022-22",
+      "document_version": 1,
+      "chunk_index": 0,
+      "content_sha256": "e2b4af0660e13709e034d6db5e4a323285065027e6fe8b7d3a1187e9be31784d",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "有书面申请、材料、期限及条件，但没有具体微信小程序名称、入口或办理步骤；书面形式不能推导为禁止线上办理。"
+    },
+    {
+      "chunk_id": "3b6ac81a688246e2bd6faa81102d03f3",
+      "document_id": "seed-bj-pause-restore-2022-22",
+      "document_version": 1,
+      "chunk_index": 1,
+      "content_sha256": "d78253e4953af568232606df70db875f6de994357051575ca22a2af20ecb01d2",
+      "returned_in_saved_response": true,
+      "proposed_directly_relevant": false,
+      "reason": "恢复确认、特殊申请、另有约定及定义，没有小程序名称或入口。"
+    }
+  ],
+  "reviewed_count": 10,
+  "reviewed_returned_count": 8,
+  "reviewed_not_returned_count": 2,
+  "source_hashes": {
+    "preflight.json": "3761ba6ee27fcff63948e7a1a54988562dc2c86ceee7551a53b195a6a2a7b66e",
+    "request.json": "d6a1a715a38f9afe1a78355be67dca9fa1ef56c3ea6892d7e1e198169fd02ceb",
+    "response.json": "d8fd488d5527d858dc17fe8c3c35b68f69980bf6b5fde36062de3dd7e02dfe04"
+  },
+  "scores_computed": false,
+  "api_calls_in_this_step": 0,
+  "limitations": [
+    "This is no direct evidence in the captured authorized corpus, not proof that no mini-program exists in the real world.",
+    "The question does not name a specific heating company; real application channels may require identifying the responsible company.",
+    "Written application does not automatically exclude electronic written submission.",
+    "No current-law validation, AI answer generation/scoring, baseline aggregation or service modification.",
+    "Negative cases have empty gold; do not compute Recall by dividing by zero or fabricate zero ranking scores."
+  ],
+  "confirmed_case_type": "N",
+  "approval": {
+    "user_statement": "认可",
+    "recorded_at_utc": "2026-10-13T05:58:05.603976+00:00"
+  },
+  "source_proposal_sha256": "5a4f37e01089997da3fe138bbcb08de9e1290588536cc6d180efc87fcc976795"
+}
